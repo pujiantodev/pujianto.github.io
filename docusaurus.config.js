@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Pujianto DEV",
+  tagline: "Coding = Seni Googling",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -23,7 +23,6 @@ const config = {
   organizationName: "pujiantodev", // Usually your GitHub org/user name.
   projectName: "pujiantodev.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
-
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -46,14 +45,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/pujiantodev/pujianto.github.io/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/pujiantodev/pujianto.github.io/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -68,9 +67,9 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Pujianto DEV",
         logo: {
-          alt: "My Site Logo",
+          alt: "Pujianto DEV Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -82,7 +81,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/pujiantodev",
             label: "GitHub",
             position: "right",
           },
@@ -104,16 +103,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/pujiantodev",
               },
             ],
           },
@@ -126,7 +117,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/pujiantodev",
               },
             ],
           },
@@ -136,7 +127,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['json','php'],
+        additionalLanguages: ["json", "php"],
       },
     }),
 };
